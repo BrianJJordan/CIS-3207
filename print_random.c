@@ -1,8 +1,10 @@
+#include "random.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "random.h"
 
+// random comments
+// new random comment
 
 int main()
 {
@@ -13,7 +15,7 @@ int main()
 
 	printf("Today's random word: ");
 	for(a=0;a<7;a++)
-		putchar( randChar() );
+		putchar( randchar() );
 	putchar('\n');
 
 	return(0);
@@ -21,9 +23,6 @@ int main()
 
 
 
-// #include "random.h"
-// #include <stdio.h>
-// #include <stdlib.h>
 
 // char* rand_string_alloc(size_t size)
 // {
