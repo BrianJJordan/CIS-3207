@@ -37,4 +37,4 @@ HOW TO COMMIT THE DIRECTORY
     7. Anything under is just comments for the commit
     8. 'esc' > ':wq' - to save changes that you have made
 
-git remote set-url origin git@github.com:BrianJJordan/CIS-3027.git - this adds it to my repository on github
+git remote set-url origin git@github.com:BrianJJordan/CIS-3207.git - this adds it to my repository on github
