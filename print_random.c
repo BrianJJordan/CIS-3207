@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-// random comments
-// new random comment
 
 int main()
 {
