@@ -1,0 +1,40 @@
+git log - to see the commit history and find the commit hash (a unique identifier for each commit).
+git log --pretty=oneline - shows the commit changes in a cleaner way
+git log --author="<author name>" - shows changes from a specific person
+git log --pretty=format:"whatever you want %xyz for this and use the below %xyz for different things" - to display the commit changes however you'd like
+    %h - hashcode
+    %an - person that made the change
+    %ar - how long ago it was changed
+    %s - the comment on the commit change
+ex: git log --pretty=format:"%h : %an : %ar : %s"
+
+git status - lets you know what hasn't been staged yet, and what is currently stages. Also shows branch you are on.
+
+git branch - lets me know the name of my branch
+    branch - when i started keeping tabs on my files
+
+git checkout <commit-hash> - to check out the old version. This command lets you view the state of the project as it was at that commit.
+
+git commit -m 'Name of Version' - commit message & faster
+git commit --amend - lets you change your commit message
+git commit -a -m 'commit message' - lets you skip staging area and commit message
+
+q - leave the git interface
+
+git rm -f <filename> - force removes files from directory and staging area *more serious*
+git rm --cached <filename> - removes files when they're in the staging *less serious*
+git mv <fileName> <new file name> - changed name of the file
+
+git diff --cached - shows what has been staged but not committed
+
+HOW TO COMMIT THE DIRECTORY
+    1. Change a file
+    2. Git diff - check changes (not yet staged)
+    3. Git add <filename>
+    4. Git commit
+    5. 'esc' > 'i'
+    6. Top line of the file is the commit heading (50 chars)
+    7. Anything under is just comments for the commit
+    8. 'esc' > ':wq' - to save changes that you have made
+
+git remote set-url origin git@github.com:BrianJJordan/CIS-3027.git - this adds it to my repository on github
